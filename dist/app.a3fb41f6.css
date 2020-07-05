@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 1.75em;
+  color: #2B2350;
+  overflow-x: hidden; }
+
+svg {
+  display: block; }
+
+button {
+  cursor: pointer;
+  outline: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+  margin-top: 0;
+  font-weight: 600;
+  color: #2B2350; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+
+/*# sourceMappingURL=/app.a3fb41f6.css.map */
