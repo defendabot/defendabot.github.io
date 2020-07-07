@@ -1,3 +1,63 @@
 .header {
+  position: absolute;
+  width: 100%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: $color__black_2 1px solid;
+  background-color: $color__back_main;
+  padding-left: calc(10.0vw - .5rem);
+  padding-right: calc(10.0vw - .5rem);
+
+  @media only screen and (min-width: $breakpoint_sm) {
+    padding-left: calc(2.7778vw + 1.6667rem);
+    padding-right: calc(2.7778vw + 1.6667rem);
+  }
+  @media only screen and (min-width: $breakpoint_md) {
+    padding-left: calc(6.25vw);
+    padding-right: calc(6.25vw);
+  }
+  @media only screen and (min-width: $breakpoint_lg) {
+    padding-left: calc(11.11vw - 3.11rem);
+    padding-right: calc(11.11vw - 3.11rem);
+  }
+  @media only screen and (min-width: $breakpoint_xl) {
+    padding-left: calc(50vw - 42em);
+    padding-right: calc(50vw - 42em);
+  }
+}
+
+.header__navigation {
+  display: inline-block;
+  height: 2.5rem;
+}
+
+.nav-items {
+  display: inline-block;
+}
+
+.nav-item {
+  display: inline-block;
+  line-height: 2.9rem;
+  margin: 0rem 1rem 0rem 1rem;
+  font-size: 0.9375rem;
+
+  &:last-child{
+    margin: 0rem 0rem 0rem 1rem;
+  }
+
+
+}
+
+.logo {
+  background-image: url("~/assets/img/logo/Logo-full.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: 0;
+
+  display: inline-block;
+  width: 11rem;
+  height: 2.5rem;
 
 }

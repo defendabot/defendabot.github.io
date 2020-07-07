@@ -1,7 +1,9 @@
 {
   "name": "dependabot-front",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+
+  },
   "devDependencies": {
     "node-sass": "^4.14.1",
     "parcel-bundler": "^1.12.4"

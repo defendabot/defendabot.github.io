@@ -1,0 +1,14 @@
+.button-action, .button-nav {
+  color: $color__text_main_inverted;
+  background: $color__secondary_main;
+  background: $gradient__secondary_main;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius:0.2rem;
+  box-shadow: 0 .25rem 1rem 0 rgba(29, 86, 208,.4);
+
+  &:hover{
+    background: $color__secondary_accent;
+    box-shadow: 0 .75rem 1.125rem 0 rgba(29, 86, 208,.4);
+  }
+
+}

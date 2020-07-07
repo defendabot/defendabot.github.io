@@ -1,0 +1,57 @@
+@import "../variables";
+
+.container--normal {
+  margin-left: calc(10.0vw - .5rem);
+  margin-right: calc(10.0vw - .5rem);
+  width: auto;
+
+  @media only screen and (min-width: $breakpoint_sm) {
+    margin-left: calc(2.7778vw + 1.6667rem);
+    margin-right: calc(2.7778vw + 1.6667rem);
+  }
+
+  @media only screen and (min-width: $breakpoint_md) {
+      margin-left: calc(6.25vw);
+      margin-right: calc(6.25vw);
+
+  }
+  @media only screen and (min-width: $breakpoint_lg) {
+      margin-left: calc(11.11vw - 3.11rem);
+      margin-right: calc(11.11vw - 3.11rem);
+
+  }
+  @media only screen and (min-width: $breakpoint_xl) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 84em;
+
+  }
+}
+
+.container-limiter--fullscreen {
+  padding-left: calc(10.0vw - .5rem);
+  padding-right: calc(10.0vw - .5rem);
+  width: auto;
+
+  @media only screen and (min-width: $breakpoint_sm) {
+    padding-left: calc(2.7778vw + 1.6667rem);
+    padding-right: calc(2.7778vw + 1.6667rem);
+  }
+  @media only screen and (min-width: $breakpoint_md) {
+    padding-left: calc(6.25vw);
+    padding-right: calc(6.25vw);
+  }
+  @media only screen and (min-width: $breakpoint_lg) {
+    padding-left: calc(11.11vw - 3.11rem);
+    padding-right: calc(11.11vw - 3.11rem);
+  }
+  @media only screen and (min-width: $breakpoint_xl) {
+    padding-left: calc(50vw - 42em);
+    padding-right: calc(50vw - 42em);
+    width: 84em;
+  }
+}
+
+.container--fullscreen {
+  width: auto;
+}

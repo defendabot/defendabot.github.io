@@ -6,6 +6,8 @@ body {
   line-height: 1.75em;
   color: $color__text_primary;
   overflow-x: hidden;
+  margin:0;
+  letter-spacing: 0.03em;
 }
 
 
@@ -18,15 +20,10 @@ button {
   outline: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font__heading;
-  margin-top: 0;
-  font-weight: 600;
-  color: $color__text_primary;
-}
-
 
 img {
+  border: 0;
   max-width: 100%;
-  height: auto;
+  vertical-align: middle;
+  display: inline-block;
 }

@@ -1,0 +1,18 @@
+@import "variables";
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font__heading;
+  padding-top: 0;
+  font-weight: 900;
+  color: $color__text_primary;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.35em;
+}
+
+p {
+  letter-spacing: 0.03em;
+  line-height: 1.35em;
+}

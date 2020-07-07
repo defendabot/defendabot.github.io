@@ -1,7 +1,13 @@
-@import "fonts";
+@import "resets/resets";
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&display=swap');
+
 @import "variables";
+@import "typography";
 @import "mixins";
 @import "base";
 
 @import "components/components";
 @import "elements/elements";
+@import "layouts/layouts";
