@@ -1,12 +1,17 @@
 $font__primary: 'Jost', sans-serif;
 $font__heading: 'Fira Code', monospace;
 
-$color__primary_main: #E89989;
-$color__primary_accent: #F8E1C5;
+$color__primary_main: #8121A3;
+$color_RGBA__primary_main: rgb(137, 11, 163);
+$color__primary_accent: #f8e1c5;
+$color_RGBA__primary_accent: rgb(242, 215, 187);
 $color__secondary_main: #0b1b44;
-$gradient__secondary_main: linear-gradient(225deg, rgba(11,27,68,1) 0%, rgba(8,51,142,1) 100%);
-//$color__secondary_main: #1b094f;
+$color_RGBA__secondary_main: rgb(9, 27, 70);
 $color__secondary_accent: #08338e;
+$color_RGBA__secondary_accent: rgb(0, 49, 142);
+$gradient__primary_main: linear-gradient(225deg, $color_RGBA__primary_main 0%, $color_RGBA__secondary_accent 70%, $color_RGBA__secondary_main 100%);
+$gradient__secondary_main: linear-gradient(225deg, $color_RGBA__secondary_main 0%, $color_RGBA__secondary_accent 100%);
+//$color__secondary_main: #1b094f;
 //$color__secondary_accent: #8121A3;
 
 $color__black_9: #313139;
@@ -19,8 +24,7 @@ $color__black_3: #d5d5db;
 $color__black_2: #e5e5e8;
 
 $color__text_primary: $color__black_9;
-
-$color__text_main_inverted: #FFFFFF;
+$color__text_primary_inverted: #FFFFFF;
 
 $color__back_main: #FFFFFF;
 

@@ -4,15 +4,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font__heading;
   padding-top: 0;
   font-weight: 900;
+  line-height: 1.35em;
   color: $color__text_primary;
 }
 
 h1 {
   font-size: 3rem;
-  line-height: 1.35em;
+}
+h2 {
+  font-size: 2rem;
+
+}
+
+h3 {
+  font-size: 1.75rem;
 }
 
 p {
+  font-size: 1.25rem;
   letter-spacing: 0.03em;
-  line-height: 1.35em;
+  line-height: 1.5em;
 }

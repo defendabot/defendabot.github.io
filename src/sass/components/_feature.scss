@@ -1,3 +1,53 @@
 .feature {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 6rem;
+
+  &__intro {
+    text-align: center;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    h2 {
+
+    }
+
+    p {
+      line-height: 1.5em;
+      margin-top: 1rem;
+    }
+
+  }
+
+  &__item {
+
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  &__description {
+
+    width: 50%;
+    padding-right: 2rem;
+
+  }
+
+  &__image {
+    width: 50%;
+    margin-left: 2rem;
+
+    img {
+      max-width: none;
+    }
+  }
+
+
 
 }
