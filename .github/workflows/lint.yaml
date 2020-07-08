@@ -1,4 +1,5 @@
 name: Lint Workflow
+on: push
 jobs:
   build:
     name: Lint Code Base
