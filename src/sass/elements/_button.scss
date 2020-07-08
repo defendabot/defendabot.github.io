@@ -3,27 +3,27 @@
   background: $color__secondary_main;
   background: $gradient__secondary_main;
   padding: 0.5rem 2rem 0.5rem 2rem;
-  border-radius:0rem;
-  box-shadow: 0 .25rem 1rem 0 rgba(29, 86, 208,.4);
+  border-radius: 0rem;
+  box-shadow: 0 .25rem 1rem 0 rgba(29, 86, 208, .4);
 
 
-  &:hover{
+  &:hover {
     @extend .button-action;
     background: $gradient__primary_main;
-    box-shadow: 0 .75rem 1.125rem 0 rgba(29, 86, 208,.4);
+    box-shadow: 0 .75rem 1.125rem 0 rgba(29, 86, 208, .4);
   }
 
   &__inverted {
     @extend .button-action;
     color: $color__text_primary;
     background: $color__back_main;
-    box-shadow: 0 .25rem 1rem 0 rgba(255, 255, 255,.2);
+    box-shadow: 0 .25rem 1rem 0 rgba(255, 255, 255, .2);
 
 
-    &:hover{
+    &:hover {
       @extend .button-action__inverted;
       color: $color__primary_main;
-      box-shadow: 0 .5rem 1.325rem .3rem rgba(255, 255, 255,.2);
+      box-shadow: 0 .5rem 1.325rem .3rem rgba(255, 255, 255, .2);
 
     }
 

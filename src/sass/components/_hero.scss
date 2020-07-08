@@ -8,11 +8,11 @@
   align-items: center;
   height: 60rem;
 
-  &__content{
+  &__content {
     width: 50%;
     padding-right: 2rem;
 
-    &--title{
+    &--title {
       padding-top: 3rem;
       padding-bottom: 1rem;
       line-height: 1.75em;
@@ -34,15 +34,16 @@
     }
 
   }
+
   &__image {
     width: 50%;
     margin-left: 2rem;
     max-width: none;
 
     img {
-      max-width :none;
+      max-width: none;
     }
-}
+  }
 
 
 }

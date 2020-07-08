@@ -1,14 +1,18 @@
 {
   "name": "dependabot-front",
   "version": "1.0.0",
-  "dependencies": {
-
-  },
   "devDependencies": {
     "node-sass": "^4.14.1",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "stylelint": "^13.6.1",
+    "prettier": "^2.0.5",
+    "stylelint-config-recommended": "^3.0.0",
+    "rimraf": "^3.0.2"
   },
   "scripts": {
+    "build": "parcel build src/index.html",
+    "clean": "rimraf dist",
+    "lint": "stylelint --syntax=scss src",
     "start": "parcel src/index.html"
   }
 }
