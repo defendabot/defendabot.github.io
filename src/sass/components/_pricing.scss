@@ -1,0 +1,54 @@
+.pricing {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 6rem;
+
+  &__intro {
+    text-align: center;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    h2 {
+
+    }
+
+    p {
+      line-height: 1.5em;
+      margin-top: 1rem;
+    }
+
+  }
+
+  &__content {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    margin-right: -1rem;
+
+  }
+
+  &__option {
+    flex: 0 1 50%;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: #000 4px solid;
+
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+
+  }
+
+}
